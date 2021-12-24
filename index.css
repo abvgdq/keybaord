@@ -1,0 +1,69 @@
+.keyboard {
+    display: flex;
+    justify-content: center;
+}
+
+.keyboard__block {
+    display: flex;
+}
+
+.keyboard-string__one {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 80px; 
+}
+
+.keyboard-string__two {
+    display: flex;
+    justify-content: center;
+    
+ }
+
+.keyboard-string__three{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.keyboard-string__four {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.keyboard-string__five {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.keyboard-string__six {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.keyboard__key{
+    background: black;
+    height: 83px;
+    width: 75px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.keyboard__key__esc{
+    margin-right: 75px;
+}
+
+
