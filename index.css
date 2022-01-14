@@ -48,7 +48,7 @@
 .keyboard-string__four {
     display: flex;
     justify-content: center;
-  
+    
 }
 
 .keyboard-string__five {
@@ -145,7 +145,7 @@
 }
 
 .keyboard__key-four {
-    margin-left: 336px;
+    margin-left: 337px;
 }
 
 .keyboard__key-one {

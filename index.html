@@ -11,23 +11,392 @@
         <textarea name="" id="" cols="30" rows="10" class="text__area"></textarea>
         <div class="keyboard">
             <div class="keyboard__block">
-                <div class="keyboard-string__one">
-                    <div class="keyboard__key"><span>esc</span></div>
-                    <div class="keyboard__key keyboard__key-marg">f1</div>
-                    <div class="keyboard__key"><span>f2</span></div>
-                    <div class="keyboard__key"><span>f3</span></div>
-                    <div class="keyboard__key"><span>f4</span></div>
-                    <div class="keyboard__key keyboard__key-mar"><span>f5</span></div>
-                    <div class="keyboard__key"><span>f6</span></div>
-                    <div class="keyboard__key"><span>f7</span></div>
-                    <div class="keyboard__key"><span>f8</span>/div>
-                    <div class="keyboard__key keyboard__key-mar"><span>f9</span></div>
-                    <div class="keyboard__key"><span>f10</span></div>
-                    <div class="keyboard__key"><span>f11</span></div>
-                    <div class="keyboard__key"><span>f12</span></div>
-                    <div class="keyboard__key keyboard__key-mar"><span>print screen</span></div>
-                    <div class="keyboard__key"><span>pause break</span></div>
-                    <div class="keyboard__key keyboard__key-scroll"><span>scroll lock</span></div>
+                <div class="key-string__three">
+                    <div class="keyboard__key keyboard__key-tab Tab">
+                        <span>tab</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyQ">q</span>
+                        <span class="en hidden KeyQ">Q</span>
+                        <span class="ru active_btn KeyQ">й</span>
+                        <span class="ru hidden KeyQ">Й</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyW">w</span>
+                        <span class="en hidden KeyW">W</span>
+                        <span class="ru active_btn KeyW">ц</span>
+                        <span class="ru hidden KeyW">Ц</span>
+                    </div>
+                    <div class="keyboard__key"> 
+                        <span class="en hidden KeyE">e</span>
+                        <span class="en hidden KeyE">E</span>
+                        <span class="ru active_btn KeyE">у</span>
+                        <span class="ru hidden KeyE">У</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyR">r</span>
+                        <span class="en hidden KeyR">R</span>
+                        <span class="ru active_btn KeyR">к</span>
+                        <span class="ru hidden KeyR">К</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyT">t</span>
+                        <span class="en hidden KeyT">T</span>
+                        <span class="ru active_btn KeyT">е</span>
+                        <span class="ru hidden KeyT">Е</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyY">y</span>
+                        <span class="en hidden KeyY">Y</span>
+                        <span class="ru active_btn KeyY">н</span>
+                        <span class="ru hidden KeyY">Н</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyU">u</span>
+                        <span class="en hidden KeyU">U</span>
+                        <span class="ru active_btn KeyU">г</span>
+                        <span class="ru hidden KeyU">Г</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyI">i</span>
+                        <span class="en hidden KeyI">I</span>
+                        <span class="ru active_btn KeyI">ш</span>
+                        <span class="ru hidden KeyI">Ш</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyO">o</span>
+                        <span class="en hidden KeyO">O</span>
+                        <span class="ru active_btn KeyO">щ</span>
+                        <span class="ru hidden KeyO">Щ</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyP">p</span>
+                        <span class="en hidden KeyP">P</span>
+                        <span class="ru active_btn KeyP">з</span>
+                        <span class="ru hidden KeyP">З</span>
+                    </div>
+                    <div class="keyboard__key BracketLeft">
+                        <span class="en hidden">{</span>
+                        <span class="en hidden">[</span>
+                        <span class="ru active_btn">х</span>
+                        <span class="ru hidden">Х</span>
+                    </div>
+                    <div class="keyboard__key BracketRight">
+                        <span class="en hidden">}</span>
+                        <span class="en hidden">]</span>
+                        <span class="ru active_btn">ъ</span>
+                        <span class="ru hidden">Ъ</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-tab Backslash">
+                        <span class="en hidden">|</span>
+                        <span class="ru active_btn">/</span>
+                        <span class="en hidden">\</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-mar Delete">
+                        <span>del</span>
+                    </div>
+                    <div class="keyboard__key End">
+                        <span>end</span>
+                    </div>
+                    <div class="keyboard__key PageDown">
+                        <span>pgdn</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-mar Numpad7">
+                        <span>7</span>
+                    </div>
+                    <div class="keyboard__key Numpad8">
+                        <span>8</span>
+                    </div>
+                    <div class="keyboard__key Numpad9">
+                        <span>9</span>
+                    </div>
+                    <div class="keyboard__key NumpadAdd">
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="key-string__four">
+                    <div class="keyboard__key keyboard__key-caps CapsLock">
+                        <span>caps</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyA">a</span>
+                        <span class="en hidden KeyA">A</span>
+                        <span class="ru active_btn KeyA">ф</span>
+                        <span class="ru hidden ">Ф</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyS">s</span>
+                        <span class="en hidden KeyS">S</span>
+                        <span class="ru active_btn KeyS">ы</span>
+                        <span class="ru hidden KeyS">Ы</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyD">d</span>
+                        <span class="en hidden KeyD">D</span>
+                        <span class="ru active_btn KeyD">в</span>
+                        <span class="ru hidden KeyD">В</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyF">f</span>
+                        <span class="en hidden KeyF">F</span>
+                        <span class="ru active_btn KeyF">а</span>
+                        <span class="ru hidden KeyF">А</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyG">g</span>
+                        <span class="en hidden KeyG">G</span>
+                        <span class="ru active_btn KeyG">п</span>
+                        <span class="ru hidden KeyG">П</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyH">h</span>
+                        <span class="en hidden KeyH">H</span>
+                        <span class="ru active_btn KeyH">р</span>
+                        <span class="ru hidden KeyH">Р</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyJ">j</span>
+                        <span class="en hidden KeyJ">J</span>
+                        <span class="ru active_btn KeyJ">о</span>
+                        <span class="ru hidden KeyJ">О</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyK">k</span>
+                        <span class="en hidden KeyK">K</span>
+                        <span class="ru active_btn KeyK">л</span>
+                        <span class="ru hidden KeyK">Л</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyL">l</span>
+                        <span class="en hidden KeyL">L</span>
+                        <span class="ru active_btn KeyL">д</span>
+                        <span class="ru hidden KeyL">Д</span>
+                    </div>
+                    <div class="keyboard__key Semicolon">
+                        <span class="en hidden">:</span>
+                        <span class="en hidden">;</span>
+                        <span class="ru active_btn">ж</span>
+                        <span class="ru hidden">Ж</span>
+                    </div>
+                    <div class="keyboard__key Quote">
+                        <span class="en hidden"></span>>"</span>
+                        <span class="en hidden"></span>>'</span>
+                        <span class="ru active_btn">э</span>
+                        <span class="ru hidden">Э</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-enter Enter">
+                        <span>enter</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-four Numpad4">
+                        <span>4</span>
+                    </div>
+                    <div class="keyboard__key Numpad5">
+                        <span>5</span>
+                    </div>
+                    <div class="keyboard__key Numpad6">
+                        <span>6</span>
+                    </div>
+                    <div class="keyboard__key NumpadAdd">
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="key-string__five">
+                    <div class="keyboard__key keyboard__key-shift ShiftLeft">
+                        <span>shift</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyZ">z</span>
+                        <span class="en hidden KeyZ">Z</span>
+                        <span class="ru active_btn KeyZ">я</span>
+                        <span class="ru hidden KeyZ">Я</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyX">x</span>
+                        <span class="en hidden KeyX">X</span>
+                        <span class="ru active_btn KeyX">ч</span>
+                        <span class="ru hidden KeyX">Ч</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyC">c</span>
+                        <span class="en hidden KeyC">C</span>
+                        <span class="ru active_btn KeyC">с</span>
+                        <span class="ru hidden KeyC">С</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyV">v</span>
+                        <span class="en hidden KeyV">V</span>
+                        <span class="ru active_btn KeyV">м</span>
+                        <span class="ru hidden KeyV">М</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyB">b</span>
+                        <span class="en hidden KeyB">B</span>
+                        <span class="ru active_btn KeyB">и</span>
+                        <span class="ru hidden KeyB">И</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyN">n</span>
+                        <span class="en hidden KeyN">N</span>
+                        <span class="ru active_btn KeyN">т</span>
+                        <span class="ru hidden KeyN">Т</span>
+                    </div>
+                    <div class="keyboard__key">
+                        <span class="en hidden KeyM">m</span>
+                        <span class="en hidden KeyM">M</span>
+                        <span class="ru active_btn KeyM">ь</span>
+                        <span class="ru hidden KeyM">Ь</span>
+                    </div>
+                    <div class="keyboard__key Comma">
+                        <span></span>
+                        <span>,</span>
+                        <span>б</span>
+                        <span>Б</span>
+                    </div>
+                    <div class="keyboard__key Period">
+                        <span>></span>
+                        <span>.</span>
+                        <span>ю</span>
+                        <span>Ю</span>
+                    </div>
+                    <div class="keyboard__key Slash">>
+                        <span>?</span>
+                        <span>'</span>
+                        <span>/</span>
+                        <span>.</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-shift ShiftRight">
+                        <span>shift</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-up ArrowUp">
+                        <span>&#5123;</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-one Numpad1">
+                        <span>1</span>
+                    </div>
+                    <div class="keyboard__key Numpad2">
+                        <span>2</span>
+                    </div>
+                    <div class="keyboard__key Numpad3">
+                        <span>3</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-plus NumpadEnter">
+                        <span>enter</span>
+                    </div>
+                </div>
+                <div class="key-string__six">
+                    <div class="keyboard__key keyboard__key-size ControlLeft">
+                        <span>ctrl</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-size MetaLeft">
+                        <span>windows</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-size AltLeft">
+                        <span>alt</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-space Space">
+                        <span>space</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-size AltRight">
+                        <span>alt</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-size">
+                        <span>fn</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-size ContextMenu">
+                        <span>context menu</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-size ControlRight">
+                        <span>ctrl</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-left ArrowLeft">
+                        <span>&#5130;</span>
+                    </div>
+                    <div class="keyboard__key ArrowDown">
+                        <span>&#5121;</span>
+                    </div>
+                     <div class="keyboard__key ArrowRight">
+                        &#5125;
+                    </div>
+                    <div class="keyboard__key keyboard__key-zero keyboard__key-mar Numpad0">
+                        <span>0</span>
+                    </div>
+                    <div class="keyboard__key NumpadDecimal">
+                        <span>.</span>
+                    </div>
+                    <div class="keyboard__key keyboard__key-plus NumpadEnter">
+                        <span>enter</span>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <script src="./index.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <div class="keyboard__section">
+                <div class="section__panel">
+                    <div class="keyboard_key">ins</div>
+                    <div class="keyboard_key">home</div>
+                    <div class="keyboard_key">pgup</div>
+                    <div class="keyboard_key">del</div>
+                    <div class="keyboard_key">end</div>
+                    <div class="keyboard_key">pgdn</div>
+                </div>
+                <div class="section__arrows">
+                    <div class="keyboard_key">up</div>
+                    <div class="keyboard_key">left</div>
+                    <div class="keyboard_key">down</div>
+                    <div class="keyboard_key">right</div>
+                </div> -->
+            <!-- </div> -->
+            <!-- <div class="keyboard__numbers">
+                <div class="keyboard__key">numlk</div>
+                <div class="keyboard__key">/</div>
+                <div class="keyboard__key">*</div>
+                <div class="keyboard__key">-</div>
+                <div class="keyboard__key">7</div>
+                <div class="keyboard__key">8</div>
+                <div class="keyboard__key">9</div>
+                <div class="keyboard__key keyboard__key-plus">+</div>
+                <div class="keyboard__key">4</div>
+                <div class="keyboard__key">5</div>
+                <div class="keyboard__key">6</div>
+                <div class="keyboard__key">1</div>
+                <div class="keyboard__key">2</div>
+                <div class="keyboard__key">3</div>
+                <div class="keyboard__key keyboard__key-ent">enter</div>
+                <div class="keyboard__key keyboard__key-zero">0</div>
+                <div class="keyboard__key">.</div>
+            </div> -->
+
+
+
+
+
+
+<!-- 
+
+
+            <div class="keyboard-string__one">
+                <div class="keyboard__key"><span>esc</span></div>
+                <div class="keyboard__key keyboard__key-marg">f1</div>
+                <div class="keyboard__key"><span>f2</span></div>
+                <div class="keyboard__key"><span>f3</span></div>
+                <div class="keyboard__key"><span>f4</span></div>
+                <div class="keyboard__key keyboard__key-mar"><span>f5</span></div>
+                <div class="keyboard__key"><span>f6</span></div>
+                <div class="keyboard__key"><span>f7</span></div>
+                <div class="keyboard__key"><span>f8</span></div>
+                <div class="keyboard__key keyboard__key-mar"><span>f9</span></div>
+                <div class="keyboard__key"><span>f10</span></div>
+                <div class="keyboard__key"><span>f11</span></div>
+                <div class="keyboard__key"><span>f12</span></div>
+                <div class="keyboard__key keyboard__key-mar"><span>print screen</span></div>
+                <div class="keyboard__key"><span>pause break</span></div>
+                <div class="keyboard__key keyboard__key-scroll"><span>scroll lock</span></div>
             </div>
             <div class="key-string__two">
                 <div class="keyboard__key">
@@ -98,12 +467,8 @@
                     <span></span>
                 </div>
                 <div class="keyboard__key">
-                    <span>
-
-                    </span>
-                    <span>
-                        
-                    </span>
+                    <span></span>
+                    <span></span>
                 </div>
                 <div class="keyboard__key keyboard__key-backspace">
                     <span>&#10229;</span>
@@ -129,364 +494,4 @@
                 <div class="keyboard__key">
                     <span>-</span>
                 </div>
-            </div>
-            <div class="key-string__three">
-                <div class="keyboard__key keyboard__key-tab">
-                    <span>tab</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">q</span>
-                    <span class="en hidden">Q</span>
-                    <span class="ru active_btn">й</span>
-                    <span class="ru hidden">Й</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">w</span>
-                    <span class="en hidden">W</span>
-                    <span class="ru active_btn">ц</span>
-                    <span class="ru hidden">Ц</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">e</span>
-                    <span class="en hidden">E</span>
-                    <span class="ru active_btn">у</span>
-                    <span class="ru hidden">У</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">r</span>
-                    <span class="en hidden">R</span>
-                    <span class="ru active_btn">к</span>
-                    <span class="ru hidden">К</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">t</span>
-                    <span class="en hidden">T</span>
-                    <span class="ru active_btn">е</span>
-                    <span class="ru hidden">Е</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">y</span>
-                    <span class="en hidden">Y</span>
-                    <span class="ru active_btn">н</span>
-                    <span class="ru hidden">Н</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">u</span>
-                    <span class="en hidden">U</span>
-                    <span class="ru active_btn">г</span>
-                    <span class="ru hidden">Г</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">i</span>
-                    <span class="en hidden">I</span>
-                    <span class="ru active_btn">ш</span>
-                    <span class="ru hidden">Ш</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">o</span>
-                    <span class="en hidden">O</span>
-                    <span class="ru active_btn">щ</span>
-                    <span class="ru hidden">Щ</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">p</span>
-                    <span class="en hidden">P</span>
-                    <span class="ru active_btn">з</span>
-                    <span class="ru hidden">З</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>{</span>
-                    <span>[</span>
-                    <span>х</span>
-                    <span>Х</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>}</span>
-                    <span>]</span>
-                    <span>ъ</span>
-                    <span>Ъ</span>
-                </div>
-                <div class="keyboard__key keyboard__key-tab">
-                    <span>|</span>
-                    <span>/</span>
-                    <span>\</span>
-                </div>
-                <div class="keyboard__key keyboard__key-mar">
-                    <span>del</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>end</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>pgdn</span>
-                </div>
-                <div class="keyboard__key keyboard__key-mar">
-                    <span>7</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>8</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>9</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>+</span>
-                </div>
-            </div>
-            <div class="key-string__four">
-                <div class="keyboard__key keyboard__key-caps">
-                    <span>caps</span>
-                </div>
-                <div class="keyboard__key"></div>
-                <div class="keyboard__key">
-                    <span class="en hidden">a</span>
-                    <span class="en hidden">A</span>
-                    <span class="ru active_btn">ф</span>
-                    <span class="ru hidden">Ф</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">s</span>
-                    <span class="en hidden">S</span>
-                    <span class="ru active_btn">ы</span>
-                    <span class="ru hidden">Ы</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">d</span>
-                    <span class="en hidden">D</span>
-                    <span class="ru active_btn">в</span>
-                    <span class="ru hidden">В</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">f</span>
-                    <span class="en hidden">F</span>
-                    <span class="ru active_btn">а</span>
-                    <span class="ru hidden">А</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">g</span>
-                    <span class="en hidden">G</span>
-                    <span class="ru active_btn">п</span>
-                    <span class="ru hidden">П</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">h</span>
-                    <span class="en hidden">H</span>
-                    <span class="ru active_btn">р</span>
-                    <span class="ru hidden">Р</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">j</span>
-                    <span class="en hidden">J</span>
-                    <span class="ru active_btn">о</span>
-                    <span class="ru hidden">О</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">k</span>
-                    <span class="en hidden">K</span>
-                    <span class="ru active_btn">л</span>
-                    <span class="ru hidden">Л</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">l</span>
-                    <span class="en hidden">L</span>
-                    <span class="ru active_btn">д</span>
-                    <span class="ru hidden">Д</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>:</span>
-                    <span>;</span>
-                    <span>ж</span>
-                    <span>Ж</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>"</span>
-                    <span>'</span>
-                    <span>э</span>
-                    <span>Э</span>
-                </div>
-                <div class="keyboard__key keyboard__key-enter">
-                    <span>enter</span>
-                </div>
-                <div class="keyboard__key keyboard__key-four">
-                    <span>4</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>5</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>6</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>+</span>
-                </div>
-            </div>
-            <div class="key-string__five">
-                <div class="keyboard__key keyboard__key-shift">
-                    <span>shift</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">z</span>
-                    <span class="en hidden">Z</span>
-                    <span class="ru active_btn">я</span>
-                    <span class="ru hidden">Я</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">x</span>
-                    <span class="en hidden">X</span>
-                    <span class="ru active_btn">ч</span>
-                    <span class="ru hidden">Ч</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">c</span>
-                    <span class="en hidden">C</span>
-                    <span class="ru active_btn">с</span>
-                    <span class="ru hidden">С</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">v</span>
-                    <span class="en hidden">V</span>
-                    <span class="ru active_btn">м</span>
-                    <span class="ru hidden">М</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">b</span>
-                    <span class="en hidden">B</span>
-                    <span class="ru active_btn">и</span>
-                    <span class="ru hidden">И</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">n</span>
-                    <span class="en hidden">N</span>
-                    <span class="ru active_btn">т</span>
-                    <span class="ru hidden">Т</span>
-                </div>
-                <div class="keyboard__key">
-                    <span class="en hidden">m</span>
-                    <span class="en hidden">M</span>
-                    <span class="ru active_btn">ь</span>
-                    <span class="ru hidden">Ь</span>
-                </div>
-                <div class="keyboard__key">
-                    <span></span>
-                    <span>,</span>
-                    <span>б</span>
-                    <span>Б</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>></span>
-                    <span>.</span>
-                    <span>ю</span>
-                    <span>Ю</span>
-                </div>
-                <div class="keyboard__key">>
-                    <span>?</span>
-                    <span>'</span>
-                    <span>/</span>
-                    <span>.</span>
-                </div>
-                <div class="keyboard__key keyboard__key-shift">
-                    <span>shift</span>
-                </div>
-                <div class="keyboard__key keyboard__key-up">
-                    <span>&#5123;</span>
-                </div>
-                <div class="keyboard__key keyboard__key-one">
-                    <span>1</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>2</span>
-                </div>
-                <div class="keyboard__key">
-                    <span>3</span>
-                </div>
-                <div class="keyboard__key keyboard__key-plus">
-                    <span>enter</span>
-                </div>
-            </div>
-            <div class="key-string__six">
-                    <div class="keyboard__key keyboard__key-size">
-                        <span>ctrl</span>
-                    </div>
-                    <div class="keyboard__key keyboard__key-size">
-                        <span>windows</span>
-                    </div>
-                    <div class="keyboard__key keyboard__key-size">
-                        <span>alt</span>
-                    </div>
-                    <div class="keyboard__key keyboard__key-space Space">
-                        <span>space</span>
-                    </div>
-                    <div class="keyboard__key keyboard__key-size">
-                        <span>alt</span>
-                    </div>
-                    <div class="keyboard__key keyboard__key-size">
-                        <span>fn</span>
-                    </div>
-                    <div class="keyboard__key keyboard__key-size">
-                        <span>panel</span>
-                    </div>
-                    <div class="keyboard__key keyboard__key-size">
-                        <span>ctrl</span>
-                    </div>
-                    <div class="keyboard__key keyboard__key-left">
-                        <span>&#5130;</span>
-                    </div>
-                    <div class="keyboard__key">
-                        <span>&#5121;</span>
-                    </div>
-                    <div class="keyboard__key">
-                        &#5125;
-                    </div>
-                    <div class="keyboard__key keyboard__key-zero keyboard__key-mar">
-                        <span>0</span>
-                    </div>
-                    <div class="keyboard__key">
-                        <span>.</span>
-                    </div>
-                    <div class="keyboard__key keyboard__key-plus">
-                        <span>enter</span>
-                    </div>
-                </div>
-        </div>
-        <script src="./index.js"></script>
-</body>
-
-</html>
-
-
-
-<!-- <div class="keyboard__section">
-                <div class="section__panel">
-                    <div class="keyboard_key">ins</div>
-                    <div class="keyboard_key">home</div>
-                    <div class="keyboard_key">pgup</div>
-                    <div class="keyboard_key">del</div>
-                    <div class="keyboard_key">end</div>
-                    <div class="keyboard_key">pgdn</div>
-                </div>
-                <div class="section__arrows">
-                    <div class="keyboard_key">up</div>
-                    <div class="keyboard_key">left</div>
-                    <div class="keyboard_key">down</div>
-                    <div class="keyboard_key">right</div>
-                </div> -->
-            <!-- </div> -->
-            <!-- <div class="keyboard__numbers">
-                <div class="keyboard__key">numlk</div>
-                <div class="keyboard__key">/</div>
-                <div class="keyboard__key">*</div>
-                <div class="keyboard__key">-</div>
-                <div class="keyboard__key">7</div>
-                <div class="keyboard__key">8</div>
-                <div class="keyboard__key">9</div>
-                <div class="keyboard__key keyboard__key-plus">+</div>
-                <div class="keyboard__key">4</div>
-                <div class="keyboard__key">5</div>
-                <div class="keyboard__key">6</div>
-                <div class="keyboard__key">1</div>
-                <div class="keyboard__key">2</div>
-                <div class="keyboard__key">3</div>
-                <div class="keyboard__key keyboard__key-ent">enter</div>
-                <div class="keyboard__key keyboard__key-zero">0</div>
-                <div class="keyboard__key">.</div>
             </div> -->
